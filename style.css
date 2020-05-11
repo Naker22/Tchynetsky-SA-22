@@ -100,8 +100,8 @@ header{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top:3px;
-margin-bottom: 7px;
+  margin-top:17px;
+margin-bottom: 12px;
 }
 .separator{
   margin-top:30px;
@@ -267,8 +267,14 @@ font-size: 2em;
     .about{
       display: none;
     }
+    .categories{
+    display: none;
+  }
+  #kont{
+    text-align: center;
+  }
 }
-@media screen and (max-width: 1292px){
+@media screen and (max-width: 1321px){
   .about{
   display: none;
 }

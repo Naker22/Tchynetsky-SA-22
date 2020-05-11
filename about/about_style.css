@@ -1,0 +1,131 @@
+.backforsep{
+	margin-top:20px;
+}
+.about_set{
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+	padding: 10px 0px;
+	flex-wrap: wrap;
+	 width: 100%;
+	 justify-content: center;
+}
+.aboutus h3{
+	font-size: 2em;
+	color:green;
+	display: inline;
+	text-align: left;
+}
+.aboutus{
+	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1000px;
+    justify-content: center;
+}
+.aboutus p{
+	
+	padding-top: 10px;
+	font-size: 1.1em;
+	text-align: justify;
+}
+.aboutus:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.video{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top:20px;
+	width: 100%;
+	justify-content: center;}
+video:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+video{
+	width: 1200px;
+	height: auto;
+}
+.Oaklogo{
+
+	width:500px;
+}
+.Lasttext{
+	margin-top: 20px;
+	width:500px;
+}
+.Oaklogo img{
+	height: 400px;
+	width: 400px;
+}
+.Lasttext{
+	padding-top: 10px;
+	font-size: 1.1em;
+	text-align: justify;
+	margin-left: 130px;
+	}
+.end{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.Oaklogo img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.decor{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.decor:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+@media screen and (max-width:1302px){
+	video{
+		width: 1000px;
+	}
+	
+}
+@media screen and (max-width:1149px){
+	.Lasttext{
+
+		margin-left: 0px;
+		width: 600px;
+	}
+	.end{
+		flex-direction: column;
+
+	}
+	.Oaklogo img{
+	height: 500px;
+	width: 600px;
+}
+.aboutus{
+	width: 600px;
+}
+video{
+		width: 600px;
+	}
+}
+@media screen and (max-width:634px){
+	.Lasttext{
+
+		
+		width: 460px;
+	}
+	.end{
+		align-items: center;
+	}
+	.Oaklogo img{
+	height: 350px;
+	width: 460px;
+}
+.aboutus{
+	width: 460px;
+}
+video{
+		width: 460px;
+	}
+	}
