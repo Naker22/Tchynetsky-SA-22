@@ -23,9 +23,12 @@
     padding: 5px;
     width: 1000px;
     justify-content: center;
+    /*backpic*/
+    /*background-image: url("bgim.jpg");*/
+    
 }
 .aboutus p{
-	
+color:black;
 	padding-top: 10px;
 	font-size: 1.1em;
 	text-align: justify;
@@ -51,9 +54,14 @@ video{
 	width:500px;
 }
 .Lasttext{
+
 	margin-top: 20px;
 	width:500px;
 }
+/*backpic*/
+/*.Lasttext p{
+	background-image: url("bgim.jpg");
+}*/
 .Oaklogo img{
 	height: 400px;
 	width: 400px;
