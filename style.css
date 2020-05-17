@@ -68,7 +68,7 @@ header{
 }
 .menu a:hover:before, .menu .current:before {left: 0;}
 .menu a:hover:after, .menu .current:after {right: 0;}   
-@media (max-width: 550px) {
+@media only screen and (max-width: 1280px) {
 .menu {padding-top: 0;}
 .menu li {display: block;}
 .menu li:after {content: none;}
@@ -260,7 +260,7 @@ font-size: 2em;
 .forhover:hover{
   color:green;
 }
-@media screen and (max-width: 550px){
+@media all and (max-width: 1280px){
   .popular_items{
     flex-direction: column-reverse;
     align-items: center;
@@ -277,12 +277,12 @@ font-size: 2em;
     text-align: center;
   }
 }
-@media screen and (max-width: 1321px){
+@media all and (max-width: 1280px){
   .about{
   display: none;
 }
 }
-@media screen and (max-width: 693px){
+@media all and (max-width: 1280px){
   .about{
     display: none;
   }
